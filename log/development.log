@@ -81,3 +81,115 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 18016)
 
 
+Started GET "/" for 127.0.0.1 at 2024-07-11 22:00:41 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 206)
+  Rendered home/_header.erb (Duration: 0.3ms | Allocations: 135)
+  Rendered home/_footer.erb (Duration: 0.1ms | Allocations: 92)
+  Rendered layout layouts/application.html.erb (Duration: 29.2ms | Allocations: 37256)
+Completed 200 OK in 34ms (Views: 30.8ms | ActiveRecord: 0.0ms | Allocations: 44170)
+
+
+Started GET "/feed" for 127.0.0.1 at 2024-07-11 22:07:02 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/feed"):
+  
+Started GET "/feed" for 127.0.0.1 at 2024-07-11 22:07:19 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/feed"):
+  
+Started GET "/feed" for 127.0.0.1 at 2024-07-11 22:07:20 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/feed"):
+  
+Started GET "/home/feed" for 127.0.0.1 at 2024-07-11 22:09:21 +0200
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.3ms | Allocations: 126)
+  Rendered home/_header.erb (Duration: 0.3ms | Allocations: 97)
+  Rendered home/_footer.erb (Duration: 0.1ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 16806)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 18067)
+
+
+Started GET "/home/feed" for 127.0.0.1 at 2024-07-11 23:00:11 +0200
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.2ms | Allocations: 121)
+  Rendered home/_header.erb (Duration: 0.3ms | Allocations: 97)
+  Rendered home/_footer.erb (Duration: 0.2ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 17582)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 18880)
+
+
+Started GET "/home/feed" for 127.0.0.1 at 2024-07-11 23:00:12 +0200
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered home/_header.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/_footer.erb (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1469)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 1781)
+
+
+Started GET "/home" for 127.0.0.1 at 2024-07-11 23:00:15 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/" for 127.0.0.1 at 2024-07-11 23:00:19 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 96)
+  Rendered home/_header.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/_footer.erb (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1579)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 1932)
+
+
+Started GET "/" for 127.0.0.1 at 2024-07-11 23:20:58 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 128)
+  Rendered home/_header.erb (Duration: 0.3ms | Allocations: 97)
+  Rendered home/_footer.erb (Duration: 0.3ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 38611)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 39910)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/tailwindcss/base"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/tailwindcss/components"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/tailwindcss/utilities"):
+  
+Started GET "/home/feed" for 127.0.0.1 at 2024-07-11 23:21:05 +0200
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.4ms | Allocations: 93)
+  Rendered home/_header.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/_footer.erb (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1528)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 1898)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/tailwindcss/utilities"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/tailwindcss/base"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/tailwindcss/components"):
+  
