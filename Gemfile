@@ -5,10 +5,6 @@ ruby "3.0.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
 
-gem 'tailwindcss-rails', '~> 2.6', '>= 2.6.1'
-
-gem 'dartsass-rails'
-
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
@@ -26,6 +22,12 @@ gem "turbo-rails"
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
+
+gem 'cssbundling-rails', '~> 1.4'
+
+gem 'sassc-rails'
+
+gem 'bootstrap', '~> 5.3.3'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
@@ -69,3 +71,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "tailwindcss-rails", "~> 2.6"
