@@ -6,7 +6,7 @@ databases:
 
 services:
   - type: web
-    name: games_wishlist
+    name: mysite
     runtime: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
